@@ -50,7 +50,7 @@ body h1 {
 
 /* line 17, ../scss/main.scss */
 .jumbotron {
-  background: #34495e url("../img/lap-black.jpg") center bottom;
+  background: #34495e url("../img/lap-black.jpg") center center;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;

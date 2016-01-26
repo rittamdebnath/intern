@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,100,200,500);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+/* http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/ */
+/* line 15, ../scss/assets/_extends.scss */
+.m-b-lg {
+  margin-bottom: 20px !important;
+}
+
+/* line 18, ../scss/assets/_extends.scss */
+.m-b-lg-2x {
+  margin-bottom: 60px !important;
+}
+
+/* line 22, ../scss/assets/_extends.scss */
+.font-lato {
+  font-family: 'Lato','Helvetica',Arial,sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* line 3, ../scss/assets/_mixins.scss */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* line 7, ../scss/main.scss */
+html,
+body {
+  font-family: 'Lato','Helvetica',Arial,sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+/* line 12, ../scss/main.scss */
+html h1,
+body h1 {
+  font-family: 'Open Sans',sans-serif;
+  line-height: 1.8;
+}
+
+/* line 17, ../scss/main.scss */
+.jumbotron {
+  background: #34495e url("../img/lap-black.jpg") center bottom;
+  background-size: cover;
+  margin-bottom: 0;
+  border-radius: 0;
+  color: #fff;
+}
+/* line 23, ../scss/main.scss */
+.jumbotron .title {
+  padding: 80px 0;
+}
+/* line 25, ../scss/main.scss */
+.jumbotron .title p {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* line 33, ../scss/main.scss */
+section.content .content-main {
+  padding: 40px 0;
+}
+/* line 35, ../scss/main.scss */
+section.content .content-main p.lead {
+  font-size: 32px;
+  font-weight: bold;
+}
+/* line 40, ../scss/main.scss */
+section.content .content-main .meta-content p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #868686;
+}

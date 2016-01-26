@@ -81,3 +81,10 @@ section.content .content-main .meta-content p {
   font-weight: 400;
   color: #868686;
 }
+
+/* line 49, ../scss/main.scss */
+footer {
+  background: #34495e;
+  color: #fff;
+  font-weight: lighter;
+}

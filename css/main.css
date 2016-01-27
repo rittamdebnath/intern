@@ -50,7 +50,7 @@ body h1 {
 
 /* line 17, ../scss/main.scss */
 .jumbotron {
-  background: #34495e url("../img/lap-black.jpg") center center;
+  background: #34495e url(../img/lap-black.jpg) center center;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;
@@ -63,28 +63,47 @@ body h1 {
 /* line 25, ../scss/main.scss */
 .jumbotron .title p {
   font-size: 60px;
+  line-height: 1;
   font-weight: bold;
 }
 
-/* line 33, ../scss/main.scss */
-section.content .content-main {
-  padding: 40px 0;
+/* line 32, ../scss/main.scss */
+p.content {
+  font-size: 42px;
+  font-weight: lighter;
+  line-height: 1.5;
 }
-/* line 35, ../scss/main.scss */
-section.content .content-main p.lead {
-  font-size: 32px;
-  font-weight: bold;
+
+/* line 37, ../scss/main.scss */
+.c-red {
+  color: #c0392b;
 }
+
 /* line 40, ../scss/main.scss */
-section.content .content-main .meta-content p {
-  font-size: 22px;
-  font-weight: 400;
-  color: #868686;
-}
-
-/* line 49, ../scss/main.scss */
 footer {
   background: #34495e;
   color: #fff;
   font-weight: lighter;
+}
+
+@media (min-width: 1000px) {
+  /* line 47, ../scss/main.scss */
+  .jumbotron {
+    height: 100%;
+  }
+}
+@media (max-width: 375px) {
+  /* line 53, ../scss/main.scss */
+  .jumbotron .title {
+    padding: 20px 0;
+  }
+  /* line 55, ../scss/main.scss */
+  .jumbotron .title p {
+    font-size: 32px;
+  }
+
+  /* line 60, ../scss/main.scss */
+  p.content {
+    font-size: 22px;
+  }
 }

@@ -15,39 +15,49 @@ body {
   }
 }
 .jumbotron {
-  background: $wet-asphalt url('../img/lap-black.jpg') center center;
+  background: $wet-asphalt url(../img/lap-black.jpg) center center;
   background-size: cover;
   margin-bottom: 0;
   border-radius: 0;
-  color:#fff;
+  color: #fff;
   .title {
-    padding:80px 0;
-    p{
-      font-size:60px;
+    padding: 80px 0;
+    p {
+      font-size: 60px;
+      line-height: 1;
       font-weight: bold;
     }
   }
 }
+p.content {
+  font-size: 42px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+.c-red{
+  color:$pomegranate;
+}
+footer {
+  background: $wet-asphalt;
+  color: #fff;
+  font-weight: lighter;
+}
 
-section.content{
-  .content-main{
-    padding:40px 0;
-    p.lead{
-      font-size:32px;
-      font-weight: bold;
-    }
-    .meta-content{
+@media (min-width:1000px) {
+  .jumbotron{
+    height: 100%;
+  }
+}
+@media (max-width:375px) {
+  .jumbotron{
+    .title{
+      padding:20px 0;
       p{
-        font-size:22px;
-        font-weight: 400;
-        color:$grey;
+        font-size:32px;
       }
     }
   }
-}
-
-footer{
-  background:$wet-asphalt;
-  color:#fff;
-  font-weight: lighter;
+  p.content{
+    font-size:22px;
+  }
 }
